@@ -1,11 +1,11 @@
 # Principal-Component-Analysis-Implementation
-Principal Component Analysis, one of dimensionality reduction techniques to reduce from d to k attributes (where d>k) that exhibit the most variance and are sufficient to classify data records.
+To classify images into 11 different types of vehicle's images, Principal Component Analysis, one of dimensionality reduction techniques is used to reduce from d to k attributes (where d>k), that exhibit the most variance and are sufficient to classify data records.
 
 Problem Statement:
 To classify images into classes 1 thru 11 using dimensionality reduction techniques and machine learning algorithms to yield high accuracy.
 
 Solution:
-The dimensionality reduction technique used is PCA and the machine learning algorithm is XGBoost.
+The dimensionality reduction technique PCA is used and the machine learning algorithm XGBoost classifies the images into one of the 11 classes of vehicles. Fine tuning the algorithms has resulted in achieving 82.2% accuracy in classification.
 
 Steps:
 1. Data Preprocessing:
